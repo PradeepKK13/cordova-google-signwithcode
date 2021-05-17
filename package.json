@@ -1,6 +1,5 @@
 {
   "name": "cordova-google-signin-android",
-  "version": "1.0",
   "description": "Cordova plugin for Google Signin",
   "author": {
     "name": "GEMS Admin"
