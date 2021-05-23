@@ -143,7 +143,7 @@ implements GoogleApiClient.OnConnectionFailedListener {
         //if the user setup a server client id, add it
         if (mServerClientId != null) {
             Log.d(TAG, "mServerClientId :- " + mServerClientId);
-            optionsBuilder = optionsBuilder.requestIdToken(mServerClientId);
+            //optionsBuilder = optionsBuilder.requestIdToken(mServerClientId);
 	    optionsBuilder = optionsBuilder.requestServerAuthCode(mServerClientId);
         }
 
