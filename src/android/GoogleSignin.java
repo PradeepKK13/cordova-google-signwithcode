@@ -144,6 +144,7 @@ implements GoogleApiClient.OnConnectionFailedListener {
         if (mServerClientId != null) {
             Log.d(TAG, "mServerClientId :- " + mServerClientId);
             optionsBuilder = optionsBuilder.requestIdToken(mServerClientId);
+	    optionsBuilder = optionsBuilder.requestServerAuthCode(mServerClientId);
         }
 
         GoogleSignInOptions gso = optionsBuilder.build();
