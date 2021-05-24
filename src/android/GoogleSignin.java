@@ -137,6 +137,8 @@ implements GoogleApiClient.OnConnectionFailedListener {
     private void createGoogleApiClient() {
         //create builder we can manipulate
         GoogleSignInOptions.Builder optionsBuilder = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+	    .requestScopes(new Scope(Scopes.DRIVE_APPFOLDER))
+	    .requestScopes(new Scope(Scopes.DRIVE_FILE))
             .requestEmail();
         //.requestProfile();
 
