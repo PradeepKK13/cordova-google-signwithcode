@@ -17,9 +17,9 @@ import com.google.android.gms.common.api.OptionalPendingResult;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 
-import com.google.api.services.drive.Drive;
+//import com.google.api.services.drive.Drive;
 import com.google.api.services.drive.DriveScopes;
-import com.google.api.services.drive.model.File;
+//import com.google.api.services.drive.model.File;
 
 import org.apache.cordova.*;
 import org.json.JSONException;
