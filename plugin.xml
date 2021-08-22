@@ -15,7 +15,7 @@
 
  
 
-    <framework src="com.google.android.gms:play-services-auth:$PLAY_SERVICES_VERSION" />
+    <framework src="com.google.android.gms:play-services-auth:$AUTH_SERVICES_VERSION" />
     <framework src="com.google.android.gms:play-services-identity:$IDENTITY_SERVICES_VERSION" />
 	    
         <config-file target="res/xml/config.xml" parent="/*">
