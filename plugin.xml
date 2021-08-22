@@ -10,8 +10,8 @@
 	    <!--<preference name="PLAY_SERVICES_VERSION" default="18.1.0"/>
     <framework src="com.google.android.gms:play-services-auth:$PLAY_SERVICES_VERSION" />
     <framework src="com.google.android.gms:play-services-identity:$PLAY_SERVICES_VERSION" />-->
-	<preference name="AUTH_SERVICES_VERSION" default="15.0.1"/>
-                <preference name="IDENTITY_SERVICES_VERSION" default="15.0.1"/>
+	<preference name="AUTH_SERVICES_VERSION" default="18.1.0"/>
+                <preference name="IDENTITY_SERVICES_VERSION" default="17.0.1"/>
 
  
 
